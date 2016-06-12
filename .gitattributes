@@ -1,0 +1,5 @@
+# Unset the `diff` attribute on a couple of files, so their *contents* are
+# excluded from `git grep` (you still get an indication that there's a match,
+# though)
+*.xml -diff
+*.min.js -diff
