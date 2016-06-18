@@ -116,7 +116,7 @@ SpriteMorph.uber = PenMorph.prototype;
 
 SpriteMorph.prototype.categories =
     [
-        'motion',
+        'znap',
         'control',
         'looks',
         'sensing',
@@ -125,10 +125,12 @@ SpriteMorph.prototype.categories =
         'pen',
         'variables',
         'lists',
+        'motion',
         'other'
     ];
 
 SpriteMorph.prototype.blockColor = {
+    znap : new Color(74, 108, 212),
     motion : new Color(74, 108, 212),
     looks : new Color(143, 86, 227),
     sound : new Color(207, 74, 217),
